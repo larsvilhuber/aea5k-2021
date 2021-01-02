@@ -71,3 +71,16 @@ print(submission)
 ```
 and I thus humbly submit a time of **`r submission$eta`** minutes for 5 km (all units decimal; though honestly that upper bound of `r submission$eta.upper` looks really reasonable).
 
+## Data and Code Availability Statement
+
+All data are made available in this repository. All code is in the R Markdown document. 
+
+## Replication Info
+
+Re-running the code might take a few seconds on a reasonably modern system.
+Re-running the data collection might take a reasonably modern person anywhere from 20 to 60 minutes. Data collection protocol may require shoes, appropriate clothing, and is unlikely to succeed in the presence of substantial flooding.
+
+```{r sysinfo}
+Sys.info()
+sessionInfo()
+```
